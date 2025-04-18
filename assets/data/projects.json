@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "Video Crop",
+      "description": "An Android app offering video editing features like trim, crop, filters, effects, and music overlay—ideal for creating content for social platforms.",
+      "image": "assets/images/projects/ecommerce.jpg",
+      "tags": ["Kotlin", "Media3", "OpenGL"],
+      "link": "https://play.google.com/store/apps/details?id=com.braincraftapps.cropvideos",
+      "buttonText": "View on Play Store"
+    },
+    {
+      "id": "2",
+      "title": "Sticker Maker",
+      "description": "An Android app for creating custom WhatsApp stickers with image editing features like crop, background erase, text overlay, and more.",
+      "image": "assets/images/projects/taskmanager.jpg",
+      "tags": ["Kotlin", "Media3", "OpenGL"],
+      "link": "https://play.google.com/store/apps/details?id=com.braincraftapps.droid.stickermaker",
+      "buttonText": "View on Play Store"
+    }
+  ]
+} 

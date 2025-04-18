@@ -6,114 +6,196 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Khondaker Rifat-E-Rahman">
     <meta name="description"
-        content="Software engineer with 8+ years of experience in mobile and web apps. Skilled in Java, Kotlin, Python, C++, algorithms, and problem-solving, with a passion for design patterns and system design.">
+        content="Portfolio of Khondaker Rifat-E-Rahman - Android, iOS, and Backend Developer">
     <meta name="keywords"
-        content="Rifat, Android Developer, IOS Developer, Backend Developer, FastAPI, Mobile App Developer, Problem Solving, Leetcode, Java, Kotlin, C++, Swift, SwiftUI">
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-
-    <!-- Google tag (gtag.js) -->
+        content="Rifat, Android Developer, IOS Developer, Backend Developer, Portfolio, Kotlin, Java, Swift, Python, OpenGL">
+    
+    <title>Khondaker Rifat-E-Rahman | Developer Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2BC629Y6W"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'G-T2BC629Y6W');
     </script>
-
-    <title>Another Software Engineer</title>
 </head>
 
-<body class="bg-black min-h-screen flex flex-col text-white">
+<body>
+    <header class="main-header">
+        <nav class="sticky-nav">
+            <a href="#home" class="logo">
+                <span>{</span>R<span>}</span>
+            </a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
 
-    <div class="flex-grow">
-
-        <div class="max-w-6xl mx-auto px-4">
-
-            <!-- Header Section -->
-            <header class="py-6">
-                <nav class="flex items-center justify-between">
-                    <!-- Logo Section -->
-                    <a href="#" aria-label="Home" class="text-4xl font-bold">
-                        <span class="text-gray-100 text-opacity-40">{</span>R<span
-                            class="text-gray-100 text-opacity-40">}</span>
-                    </a>
-
-                    <!-- Navigation Links -->
-                    <ul class="flex space-x-4">
-                        <li><a href="https://www.linkedin.com/in/rifat-rahman-/" target="_blank"
-                                rel="noopener noreferrer">
-                                <img src="assets/icon_linkedin_logo.svg" alt="LinkedIn" class="w-auto h-6">
-                            </a></li>
-                        <li><a href="https://github.com/dev-lock" target="_blank" rel="noopener noreferrer">
-                                <img src="assets/icon_github_logo.svg" alt="GitHub" class="w-auto h-6">
-                            </a></li>
-                        <li><a href="https://leetcode.com/u/im_rifat/" target="_blank" rel="noopener noreferrer">
-                                <img src="assets/icon_leetcode_logo.svg" alt="Leetcode" class="w-auto h-6">
-                            </a></li>
-                        <li><a href="https://www.facebook.com/imkrer" target="_blank" rel="noopener noreferrer">
-                                <img src="assets/icon_facebook_logo.svg" alt="Facebook" class="w-auto h-6">
-                            </a></li>
-                        <li><a href="mailto:rrahman991@gmail.com">
-                                <img src="assets/icon_gmail_logo.svg" alt="Gmail" class="w-auto h-6">
-                            </a></li>
-                    </ul>
-                </nav>
-            </header>
-
-            <!-- Main Section -->
-            <main>
-
-                <!-- Intro Section -->
-                <section class="grid grid-cols-1 items-center gap-8 mt-12">
-                    <div>
-                        <p class="text-lg text-green-500 font-medium text-3xl font-serif">
-                            Hey there!, I'm-
-                        </p>
-                        <h2 class="text-4xl md:text-6xl font-serif font-bold">
-                            Khondaker Rifat-E-Rahman.
-                        </h2>
-                    </div>
-                </section>
-
-                <!-- About Section -->
-                <section class="mt-16 grid grid-cols-1 md:grid-cols-2 items-center gap-8">
-                    <div class="flex justify-center">
-                        <img src="assets/img.jpeg" alt="Profile Picture" class="rounded-full w-48 h-48 md:w-64 md:h-64">
-                    </div>
-
-                    <div>
-                        <p class="text-lg font-serif leading-relaxed">
-                            Experienced Android Developer with 8 years of expertise in creating mobile apps using <span
-                                class="font-bold">Java,
-                                Kotlin, and C++</span>. Proficient in app deployment through <span
-                                class="font-bold">Google Play Console</span> and <span class="font-bold">Firebase
-                                Hosting</span>.
-                            Skilled in using <span class="font-bold">Android NDK</span> for native development and
-                            optimizing performance.
-                            <br><br>
-                            Passionate about improving software, writing clean and maintainable code, and learning
-                            design
-                            patterns, system design, and backend development. Always eager to explore new technologies
-                            and
-                            solve challenging problems.
-                        </p>
-                    </div>
-                </section>
-
-            </main>
-
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <button class="mobile-menu-close">
+            <i class="fas fa-times"></i>
+        </button>
+        <div class="mobile-menu-links">
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
         </div>
     </div>
 
-    <!-- Footer Section -->
-    <footer class="mt-12 text-center py-4 border-t border-gray-700">
-        <p>&copy; <span id="year">2024</span> Just another footer trying to make a difference!</p>
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="avatar-container">
+                        <img src="assets/img.webp" alt="Khondaker Rifat-E-Rahman" class="avatar">
+                    </div>
+                    <h1>Khondaker Rifat-E-Rahman</h1>
+                    <p class="greeting">Hello, I'm</p>
+                    <p class="subtitle">Mobile App Developer</p>
+                    <p class="hero-description">Developing high-quality software at Brain Craft Ltd. Passionate about problem solving and exploring new tech stacks in my spare time.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Recent Projects</h2>
+                </div>
+                <div id="projects-grid" class="projects-grid">
+                    <!-- Projects will be loaded dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Professional Experience</h2>
+                    <p class="section-description">My journey through various roles and responsibilities in the tech industry</p>
+                </div>
+                <div class="experience-container" id="experience-container">
+                    <!-- Experience items will be loaded here dynamically -->
+                    <div class="loading-spinner">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <p>Loading experience...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Education</h2>
+                    <p class="section-description">My academic background and qualifications</p>
+                </div>
+                <div class="education-container" id="education-container">
+                    <!-- Education items will be loaded here dynamically -->
+                    <div class="loading-spinner">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <p>Loading education...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Skills & Expertise</h2>
+                    <p class="section-description">Technologies and tools I work with</p>
+                </div>
+                <div class="skills-container" id="skills-container">
+                    <!-- Skills will be loaded here dynamically -->
+                    <div class="loading-spinner">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <p>Loading skills...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-description">Feel free to reach out for collaborations or just a friendly hello</p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>rrahman991@gmail.com</p>
+                        </div>
+                        <div class="contact-social">
+                            <a href="https://www.linkedin.com/in/rifat-rahman-/" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/dev-lock" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://leetcode.com/u/im_rifat/" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-code"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; <span id="year">2025</span> Khondaker Rifat-E-Rahman. All rights reserved.</p>
+            </div>
+        </div>
     </footer>
 
-    <script>
-        document.querySelector('#year').textContent = new Date().getFullYear();
-    </script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/about.js"></script>
+    <script src="assets/js/projects.js"></script>
 </body>
 
 </html>

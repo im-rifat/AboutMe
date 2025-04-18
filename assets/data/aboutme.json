@@ -1,0 +1,109 @@
+{
+  "experience": [
+    {
+      "id": "1",
+      "title": "Senior Software Engineer",
+      "company": "Brain Craft Ltd",
+      "location": "Dhaka, Bangladesh",
+      "period": "Jan 2021 - Present",
+      "description": "Lead developer for flagship mobile application with over 1M downloads. Implemented MVVM architecture, Kotlin Coroutines, and Jetpack Compose. Reduced app crash rate by 75% through improved error handling and testing.",
+      "achievements": [
+        "Developed core features for video and image processing in collaboration with team members and optimized them for lower-end devices.",
+        "Conducted requirement analysis and led a small team in developing new features.",
+        "Collaborated with the QA team to resolve issues, achieving a 99.3% crash-free rate as reported by Firebase Analytics."
+      ],
+      "technologies": ["Kotlin", "Java", "Android NDK", "Media3", "OpenGL", "RoomDB", "Git", "Jira"]
+    },
+    {
+      "id": "2",
+      "title": "Software Engineer",
+      "company": "LIILab",
+      "location": "Sylhet, Bangladesh",
+      "period": "Oct 2017 - Dec 2020",
+      "description": "Developed and maintained multiple Android applications for clients across various industries. Implemented RESTful API integration, local database caching, and push notifications.",
+      "achievements": [
+        "Co-developed and architected an EdTech app, resulting in over 100k+ downloads on the Play Store.",
+        "Contributed to the development of multiple native Android apps, focusing on C++ and NDK based components."
+      ],
+      "technologies": ["Java", "Android NDK","SQLite", "Retrofit", "OpenCV", "Git", "Trello"]
+    },
+    {
+      "id": "3",
+      "title": "Android Application Developer",
+      "company": "Tigers App",
+      "location": "Austin, TX",
+      "period": "Aug 2016 - May 2017",
+      "description": "Worked on both Android and iOS applications. Collaborated with designers and product managers to implement user interfaces and features.",
+      "achievements": [
+        "Designed and developed native Android applications from scratch using Java.",
+        "Contributed to an app that achieved 1.8 million downloads within a short timeframe."
+      ],
+      "technologies": ["Java", "XML", "JSON", "Git"]
+    },
+    {
+      "id": "4",
+      "title": "Junior Software Engineer",
+      "company": "TiCON System Ltd",
+      "location": "San Francisco, CA",
+      "period": "Aug 2015 - Aug 2016",
+      "description": "Working on developing and maintaining web applications using modern technologies.",
+      "achievements": [
+        "Started professional career as an Android developer.",
+        "Developed instant messaging and calling apps using the Smack library and PortSIP SDK."
+      ],
+      "technologies": [
+        "Java",
+        "XML",
+        "Smack",
+        "Portsip"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "degree": "Bsc. in Computer Science & Engineering",
+      "school": "Shahjalal University of Science & Technology",
+      "location": "Sylhet",
+      "period": "2010 - 2015",
+      "gpa": "--",
+      "description": "Specialized in Mobile Computing and Software Engineering. Thesis focused on optimizing mobile app performance through efficient resource management.",
+      "courses": [
+        "Algorithms",
+        "Mobile Application Development",
+        "RDBMS",
+        "Software Engineering Principles"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "skills": [
+        "Java",
+        "Python",
+        "C++",
+        "Swift",
+        "Kotlin"
+      ]
+    },
+    {
+      "name": "Mobile Development",
+      "skills": [
+        "Android",
+        "iOS",
+        "SwiftUI",
+        "Play Store deployment"
+      ]
+    },
+    {
+      "name": "Tools",
+      "skills": [
+        "Git",
+        "Jira",
+        "Trello",
+        "Slack"
+      ]
+    }
+  ]
+} 
